@@ -6,7 +6,7 @@ EEG Feature Extraction
 - [Methodology](#methodology)
 - [Data Set and Feature Extraction](data-set-and-feature-extraction)
 - [Feature Selection Algorithms](feature-selection-algorithms)
-- [Machine Learning Algorithms](machine-learning-algorithms)
+- [Machine Learning Algorithms](Machine-Learning-Algorithms)
 - [Results and Discussion](#results-and-discussion)
 - [Report](report)
 - [Research Poster](research-poster)
