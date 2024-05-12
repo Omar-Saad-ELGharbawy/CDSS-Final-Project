@@ -60,10 +60,10 @@ The Random Forest model emerged as the best performer, achieving an average accu
 
 ## Report
 
-![Report](link/to/your/block_diagram.png)
+![Report](https://github.com/Omar-Saad-ELGharbawy/CDSS-Final-Project/blob/main/Mental%20State%20Classification%20Report.pdf)
 
 ## Research Poster
-![Poster](link/to/your/block_diagram.png)
+[Poster]([link/to/your/block_diagram.png](https://github.com/Omar-Saad-ELGharbawy/CDSS-Final-Project/blob/main/Research%20Poster.pptx))
 ![ResearchPoster-Team 4](https://github.com/Omar-Saad-ELGharbawy/CDSS-Final-Project/assets/84602951/19717ad6-43cf-438c-a5f9-f4a7febfa905)
 
 
