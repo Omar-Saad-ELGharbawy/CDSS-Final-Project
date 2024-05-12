@@ -4,9 +4,9 @@ EEG Feature Extraction
 ## Table of contents:
 - [Introduction](#introduction)
 - [Methodology](#methodology)
-- [Data Set and Feature Extraction](data-set-and-feature-extraction)
+- [Data Set ](data-set)
 - [Feature Selection Algorithms](feature-selection-algorithms)
-- [Machine Learning Algorithms](Machine-Learning-Algorithms)
+- [Machine Learning](machine-learning)
 - [Results and Discussion](#results-and-discussion)
 - [Report](report)
 - [Research Poster](research-poster)
@@ -41,7 +41,7 @@ EEG signals have been widely used to classify mental states and diagnose neurolo
 
 ---
 
-## Data Set and Feature Extraction
+## Data Set
 
 The data set comprised EEG signals collected from Muse headbands, with feature extraction focusing on statistical, Shannon entropy, log-energy entropy, and frequency domain features.
 
@@ -53,7 +53,7 @@ Utilized filter-based feature selection methods including Variance, Correlation,
 
 ---
 
-## Machine Learning Algorithms
+## Machine Learning
 
 Evaluated various machine learning models including Naive Bayes, SVM, Decision Tree, Random Forest, and KNN, with Random Forest performing the best in terms of accuracy and generalization.
 
