@@ -1,13 +1,11 @@
-EEG Feature Extraction
+
 # Mental State Classification using EEG
 
 ## Table of contents:
 - [Introduction](#introduction)
 - [Methodology](#methodology)
-- [Data Set ](data-set)
-- [Feature Selection Algorithms](feature-selection-algorithms)
-- [Machine Learning](machine-learning)
-- [Results and Discussion](#results-and-discussion)
+- [Used Technologies](#used-technologies)
+- [Results](#results)
 - [Report](report)
 - [Research Poster](research-poster)
 
@@ -26,42 +24,36 @@ This project focuses on classifying mental states using EEG signals collected fr
 
 ## Methodology
 
-1. **Searching for Data**: Utilized existing EEG databases for model training.
-2. **Data Processing**: Cleaned and normalized data to remove noise.
-3. **Feature Extraction**: Extracted features from EEG signals using statistical and time-frequency techniques.
-4. **Feature Selection**: Selected the most important features using variance, correlation, mutual information filter, and univariate ROC AUC methods.
-5. **Model Training**: Trained machine learning models (Naive Bayes, SVM, Decision Tree, Random Forest, KNN) on the selected features.
-6. **Model Evaluation**: Evaluated models using cross-validation techniques and various performance metrics.
+The methodology for this project involves the following steps:
 
+### Data Search: 
+Find datasets containing EEG signals labeled with different mental states.
+### Data Processing: 
+Clean and pre-process the data to remove noise and normalize features.
+### Feature Extraction:
+Extract relevant features from the EEG signals that can be used to distinguish between different mental states. These features may include statistical measures, frequency domain features, and phase synchronization.
+### Feature Selection: 
+Select the most important features to improve model performance and reduce overfitting. This can be done using various techniques like variance, correlation, mutual information, and ROC AUC.
+### Machine Learning Model Evaluation:
+Evaluate different machine learning models, such as Naive Bayes, Support Vector Machines (SVM), Decision Trees, Random Forests, and K-Nearest Neighbors (KNN), to classify mental states.
+### Model Training:
+Train the best performing model on the entire dataset.
+###Testing: 
+Test the trained model on unseen data to evaluate its generalizability.
 ---
 
-## Literature Review
+## Used Technologies
 
-EEG signals have been widely used to classify mental states and diagnose neurological diseases. Previous studies have employed machine learning techniques such as SVM, ANN, and Random Forest to achieve high accuracy in mental state classification.
-
+Data Acquisition: EEG recording device (e.g., Muse headband)
+Data Processing Libraries: MNE-Python, EEGLab
+Feature Extraction Libraries: EEGLab, SciPy, NumPy
+Feature Selection Libraries: scikit-learn
+Machine Learning Libraries: scikit-learn, TensorFlow
 ---
 
-## Data Set
+## Results
 
-The data set comprised EEG signals collected from Muse headbands, with feature extraction focusing on statistical, Shannon entropy, log-energy entropy, and frequency domain features.
-
----
-
-## Feature Selection Algorithms
-
-Utilized filter-based feature selection methods including Variance, Correlation, Mutual Information Filter, and Univariate ROC AUC to reduce data complexity and improve model performance.
-
----
-
-## Machine Learning
-
-Evaluated various machine learning models including Naive Bayes, SVM, Decision Tree, Random Forest, and KNN, with Random Forest performing the best in terms of accuracy and generalization.
-
----
-
-## Results and Discussion
-
-Achieved a high accuracy of 97.6% using the Random Forest model, indicating the effectiveness of the selected features and model in classifying mental states. Future research could explore more complex models and additional features for further improvement.
+The Random Forest model emerged as the best performer, achieving an average accuracy of 97.4% using 10-fold cross-validation. This technique helps prevent overfitting and provides a more reliable estimate
 
 ---
 
