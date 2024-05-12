@@ -26,29 +26,29 @@ This project focuses on classifying mental states using EEG signals collected fr
 
 The methodology for this project involves the following steps:
 
-### Data Search: 
+#### Data Search: 
 Find datasets containing EEG signals labeled with different mental states.
-### Data Processing: 
+#### Data Processing: 
 Clean and pre-process the data to remove noise and normalize features.
-### Feature Extraction:
+#### Feature Extraction:
 Extract relevant features from the EEG signals that can be used to distinguish between different mental states. These features may include statistical measures, frequency domain features, and phase synchronization.
-### Feature Selection: 
+#### Feature Selection: 
 Select the most important features to improve model performance and reduce overfitting. This can be done using various techniques like variance, correlation, mutual information, and ROC AUC.
-### Machine Learning Model Evaluation:
+#### Machine Learning Model Evaluation:
 Evaluate different machine learning models, such as Naive Bayes, Support Vector Machines (SVM), Decision Trees, Random Forests, and K-Nearest Neighbors (KNN), to classify mental states.
-### Model Training:
+#### Model Training:
 Train the best performing model on the entire dataset.
-###Testing: 
+#### Testing: 
 Test the trained model on unseen data to evaluate its generalizability.
 ---
 
 ## Used Technologies
 
-Data Acquisition: EEG recording device (e.g., Muse headband)
-Data Processing Libraries: MNE-Python, EEGLab
-Feature Extraction Libraries: EEGLab, SciPy, NumPy
-Feature Selection Libraries: scikit-learn
-Machine Learning Libraries: scikit-learn, TensorFlow
+- Data Acquisition: EEG recording device (e.g., Muse headband)
+- Data Processing Libraries: MNE-Python, EEGLab
+- Feature Extraction Libraries: EEGLab, SciPy, NumPy
+- Feature Selection Libraries: scikit-learn
+- Machine Learning Libraries: scikit-learn, TensorFlow
 ---
 
 ## Results
