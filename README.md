@@ -40,6 +40,7 @@ Evaluate different machine learning models, such as Naive Bayes, Support Vector 
 Train the best performing model on the entire dataset.
 #### Testing: 
 Test the trained model on unseen data to evaluate its generalizability.
+
 ---
 
 ## Used Technologies
